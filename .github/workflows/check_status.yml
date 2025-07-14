@@ -1,0 +1,35 @@
+name: Update status
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  push:
+    branches:
+      - master
+
+jobs:
+  update-status:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Git
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+
+      - name: Run status script
+        run: chmod +x check_status.sh && ./check_status.sh
+
+      - name: Commit Status Changes  # When making a commit, Cloudflare pages will rebuild the site
+        run: |
+          git add 'content/issues/*.md'
+          
+          # Check if there are changes to commit
+          git diff --cached --quiet || (
+            git commit -m "Generated markdown files with new status"
+            git push origin master
+          )
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
