@@ -142,6 +142,8 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   categories:
+    - name: Uncategorized
+      untitled: true
     - name: Personal Services
       description: Services I self host for my own usage
       closed: true
@@ -149,8 +151,6 @@ params:
       description: Publicly accessible sites.
     - name: Development
       description: Services related to developping octubre.
-    - name: Uncategorized
-      untitled: true
 
   # These are your systems. Change them to
   # change the amount of components.
@@ -160,6 +160,10 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   systems:
+    - name: Main
+      category: Uncategorized
+      link: "https://octubre.be"
+
     - name: Home
       category: Personal Services
       link: "https://home.octubre.be"
@@ -169,7 +173,6 @@ params:
     - name: Media
       category: Personal Services
       link: "https://media.octubre.be"
-
 
     - name: Blog
       category: Public Services
@@ -185,8 +188,6 @@ params:
     - name: Log
       category: Public Services
       link: "https://log.octubre.be"
-
-
 
     - name: Git
       category: Development
