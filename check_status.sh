@@ -2,7 +2,7 @@
 
 file="status.txt"
 services=("home" "cloud" "media" "blog" "me" "chat" "log" "git" "archive" "dev" "pyros")
-down=()
+down=("home")
 dir="content/issues/"
 file="down.md"
 md_file="$dir$file"
