@@ -1,10 +1,9 @@
 ---
 title: Service(s) Down
-date: 2025-07-20 04:02:07
+date: 2025-07-20 04:48:27
 resolved: false
 severity: down
 affected:
-- Cloud
 - Git
 section: issue
 ---
