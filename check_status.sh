@@ -1,7 +1,7 @@
 #!/bin/bash
 
 file="status.txt"
-services=("home" "cloud" "media" "blog" "me" "chat" "log" "git" "archive" "dev" "pyros" "fandom")
+services=("home" "cloud" "media" "blog" "me" "chat" "log" "git" "archive" "dev" "fandom")
 down=()
 dir="content/issues/"
 file="down.md"

@@ -202,9 +202,6 @@ params:
     - name: Dev
       category: Development
       link: "https://dev.octubre.be"
-    - name: Pyros
-      category: Development
-      link: "https://pyros.octubre.be"
 
   # What date format to use?
   #
