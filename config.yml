@@ -178,6 +178,9 @@ params:
     - name: Blog
       category: Public Services
       link: "https://blog.octubre.be"
+    - name: Fandom
+      category: Public Services
+      link: "https://fandom.octubre.be"
     - name: Me
       description: Portfolio.
       category: Public Services
