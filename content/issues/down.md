@@ -1,11 +1,10 @@
 ---
 title: Service(s) Down
-date: 2025-08-18 13:45:19
+date: 2025-08-18 13:57:55
 resolved: false
 severity: down
 affected:
 - Cloud
-- Media
 - Archive
 section: issue
 ---
