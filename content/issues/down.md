@@ -1,13 +1,11 @@
 ---
 title: Service(s) Down
-date: 2025-10-18 20:09:38
+date: 2025-10-18 20:27:45
 resolved: false
 severity: down
 affected:
-- Media
 - Chat
 - Archive
-- Dev
 section: issue
 ---
 
