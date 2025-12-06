@@ -1,9 +1,10 @@
 ---
 title: Service(s) Down
-date: 2025-12-06 08:59:16
+date: 2025-12-06 09:19:05
 resolved: false
 severity: down
 affected:
+- Cloud
 - Media
 section: issue
 ---
