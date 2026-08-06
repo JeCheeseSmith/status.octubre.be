@@ -1,14 +1,11 @@
 ---
 title: Service(s) Down
-date: 2026-08-06 11:07:47
+date: 2026-08-06 13:00:54
 resolved: false
 severity: down
 affected:
-- Cloud
 - Media
-- Chat
 - Archive
-- Dev
 section: issue
 ---
 
