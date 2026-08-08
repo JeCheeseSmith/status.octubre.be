@@ -148,8 +148,8 @@ params:
     - name: Personal Services
       description: Services I self host for my own usage
       closed: true
-    - name: Public Services
-      description: Publicly accessible sites.
+    # - name: Public Services
+    #   description: Publicly accessible sites.
     - name: Development
       description: Services related to developping octubre.
 
@@ -175,23 +175,23 @@ params:
       category: Personal Services
       link: "https://media.octubre.be"
 
-    - name: Blog
-      category: Public Services
-      link: "https://blog.octubre.be"
-    - name: Fandom
-      category: Public Services
-      link: "https://fandom.octubre.be"
-    - name: Me
-      description: Portfolio.
-      category: Public Services
-      link: "https://me.octubre.be"
-    - name: Chat
-      description: Matrix Server.
-      category: Public Services
-      link: "https://chat.octubre.be"
-    - name: Log
-      category: Public Services
-      link: "https://log.octubre.be"
+    # - name: Blog
+    #   category: Public Services
+    #   link: "https://blog.octubre.be"
+    # - name: Fandom
+    #   category: Public Services
+    #   link: "https://fandom.octubre.be"
+    # - name: Me
+    #   description: Portfolio.
+    #   category: Public Services
+    #   link: "https://me.octubre.be"
+    # - name: Chat
+    #   description: Matrix Server.
+    #   category: Public Services
+    #   link: "https://chat.octubre.be"
+    # - name: Log
+    #   category: Public Services
+    #   link: "https://log.octubre.be"
 
     - name: Git
       category: Development
